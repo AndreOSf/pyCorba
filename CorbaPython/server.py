@@ -3,7 +3,7 @@ import CORBA, Fortune, Fortune__POA
 
 class CookieServer_i(Fortune__POA.CookieServer):
     def get_cookie(self):
-        msg = "Hello World\n"
+        msg = "Testando comunicação com OmniORBpy\n"
         return msg
 
 #inicia o orb do corba
